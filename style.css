@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p {
+    margin: 0px auto;
+    margin-bottom: 5%;
+    font-size: 50px;
+}
+
+h1 {
+    width: auto;
+    margin: 0px;
+    margin-bottom: 10%;
+    margin-top: -10px;
+    font-size: 60px;
+}
+
+input:hover {
+    font-size: 14px;
+    background: rgba(5, 107, 175, 0.096);
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
